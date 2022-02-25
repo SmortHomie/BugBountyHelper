@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SshBruteForce"
+    android:background="@drawable/bg"
+    >
+
+    <ImageView
+        android:id="@+id/SshBfTitleHold"
+        android:layout_width="264dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/SshBfTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="SSH Bruteforce\nTool"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/SshBfTitleHold"
+        app:layout_constraintEnd_toEndOf="@+id/SshBfTitleHold"
+        app:layout_constraintStart_toStartOf="@+id/SshBfTitleHold"
+        app:layout_constraintTop_toTopOf="@+id/SshBfTitleHold" />
+
+    <ImageView
+        android:id="@+id/ipsshbfhold"
+        android:layout_width="289dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/SshBfTitleHold"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="@+id/SshBfTitleHold"
+        app:layout_constraintTop_toBottomOf="@+id/SshBfTitleHold"
+        app:srcCompat="@drawable/button3" />
+
+    <ImageView
+        android:id="@+id/uidsshbfhold"
+        android:layout_width="289dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintEnd_toEndOf="@+id/SshBfTitleHold"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/SshBfTitleHold"
+        app:layout_constraintTop_toBottomOf="@+id/SshBfTitleHold"
+        app:srcCompat="@drawable/button3" />
+
+    <ImageView
+        android:id="@+id/filechoosehold"
+        android:layout_width="289dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="216dp"
+        app:layout_constraintEnd_toEndOf="@+id/SshBfTitleHold"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/SshBfTitleHold"
+        app:layout_constraintTop_toBottomOf="@+id/SshBfTitleHold"
+        app:srcCompat="@drawable/button3" />
+
+    <ImageView
+        android:id="@+id/OutputTitleHold"
+        android:layout_width="283dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="392dp"
+        app:layout_constraintEnd_toEndOf="@+id/SshBfTitleHold"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="@+id/SshBfTitleHold"
+        app:layout_constraintTop_toBottomOf="@+id/SshBfTitleHold"
+        app:srcCompat="@drawable/button3" />
+
+    <ImageView
+        android:id="@+id/ipsshbf"
+        android:layout_width="215dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ipsshbfhold"
+        app:layout_constraintEnd_toEndOf="@+id/ipsshbfhold"
+        app:layout_constraintTop_toTopOf="@+id/ipsshbfhold"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/uidssh"
+        android:layout_width="215dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/uidsshbfhold"
+        app:layout_constraintEnd_toEndOf="@+id/uidsshbfhold"
+        app:layout_constraintTop_toTopOf="@+id/uidsshbfhold"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/filechoosesshbf"
+        android:layout_width="215dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/filechoosehold"
+        app:layout_constraintEnd_toEndOf="@+id/filechoosehold"
+        app:layout_constraintTop_toTopOf="@+id/filechoosehold"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/performbutt"
+        android:layout_width="190dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/filechoosehold"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/filechoosehold"
+        app:layout_constraintTop_toBottomOf="@+id/filechoosehold"
+        app:srcCompat="@drawable/button3" />
+
+    <ImageView
+        android:id="@+id/OutputHold"
+        android:layout_width="283dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="@+id/OutputTitleHold"
+        app:layout_constraintEnd_toEndOf="@+id/OutputTitleHold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/OutputTitleHold"
+        app:layout_constraintTop_toTopOf="@+id/OutputTitleHold"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/optitle"
+        android:layout_width="143dp"
+        android:layout_height="32dp"
+        android:fontFamily="serif-monospace"
+        android:text="Password :"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/OutputHold"
+        app:layout_constraintEnd_toEndOf="@+id/OutputTitleHold"
+        app:layout_constraintStart_toStartOf="@+id/OutputTitleHold"
+        app:layout_constraintTop_toTopOf="@+id/OutputTitleHold" />
+
+    <TextView
+        android:id="@+id/performbutttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="BRUTEFORCE!!"
+        android:textColor="#309328"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/performbutt"
+        app:layout_constraintEnd_toEndOf="@+id/performbutt"
+        app:layout_constraintStart_toStartOf="@+id/performbutt"
+        app:layout_constraintTop_toTopOf="@+id/performbutt" />
+
+    <TextView
+        android:id="@+id/IpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP :\nAddrs"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/ipsshbfhold"
+        app:layout_constraintEnd_toStartOf="@+id/ipsshbf"
+        app:layout_constraintStart_toStartOf="@+id/ipsshbfhold"
+        app:layout_constraintTop_toTopOf="@+id/ipsshbfhold" />
+
+    <TextView
+        android:id="@+id/uidTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User\nname :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/uidsshbfhold"
+        app:layout_constraintEnd_toStartOf="@+id/uidssh"
+        app:layout_constraintStart_toStartOf="@+id/uidsshbfhold"
+        app:layout_constraintTop_toTopOf="@+id/uidsshbfhold" />
+
+    <TextView
+        android:id="@+id/filechoosetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose :\nFile Type"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/filechoosehold"
+        app:layout_constraintEnd_toStartOf="@+id/filechoosesshbf"
+        app:layout_constraintStart_toStartOf="@+id/filechoosehold"
+        app:layout_constraintTop_toTopOf="@+id/filechoosehold" />
+
+    <TextView
+        android:id="@+id/OutputScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:textColor="#3F972F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/OutputTitleHold"
+        app:layout_constraintEnd_toEndOf="@+id/OutputHold"
+        app:layout_constraintStart_toStartOf="@+id/OutputHold"
+        app:layout_constraintTop_toTopOf="@+id/OutputHold" />
+
+    <EditText
+        android:id="@+id/ipInput"
+        android:layout_width="174dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="IP Address \n(eg : 127.0.0.1)"
+        android:inputType="textPersonName"
+        android:text="192.168.1.104"
+        android:textColor="#040404"
+        android:textColorHint="#4E4D4D"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ipsshbf"
+        app:layout_constraintEnd_toEndOf="@+id/ipsshbfhold"
+        app:layout_constraintStart_toStartOf="@+id/ipsshbf"
+        app:layout_constraintTop_toTopOf="@+id/ipsshbf" />
+
+    <EditText
+        android:id="@+id/UIdInput"
+        android:layout_width="174dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="User Name\n(eg : msfadmin)"
+        android:inputType="textPersonName"
+        android:text="msfadmin"
+        android:textColor="#040404"
+        android:textColorHint="#555555"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/uidssh"
+        app:layout_constraintEnd_toEndOf="@+id/uidsshbfhold"
+        app:layout_constraintStart_toStartOf="@+id/uidssh"
+        app:layout_constraintTop_toTopOf="@+id/uidssh" />
+
+    <RadioGroup
+        android:id="@+id/filebuttgroup"
+        android:layout_width="215dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/filechoosesshbf"
+        app:layout_constraintEnd_toEndOf="@+id/filechoosehold"
+        app:layout_constraintStart_toStartOf="@+id/filechoosesshbf"
+        app:layout_constraintTop_toTopOf="@+id/filechoosesshbf">
+
+        <RadioButton
+            android:id="@+id/ebutt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Easy "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/hbutt"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hard
+"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

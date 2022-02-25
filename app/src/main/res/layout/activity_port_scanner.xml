@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".PortScanner">
+
+    <ImageView
+        android:id="@+id/TitlePSHold"
+        android:layout_width="219dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/TitlePS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Port Scanner"
+        android:textColor="#271D1D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/TitlePSHold"
+        app:layout_constraintEnd_toEndOf="@+id/TitlePSHold"
+        app:layout_constraintStart_toStartOf="@+id/TitlePSHold"
+        app:layout_constraintTop_toTopOf="@+id/TitlePSHold" />
+
+    <ImageView
+        android:id="@+id/IPTitleHold"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitlePSHold"
+        app:srcCompat="@drawable/button3" />
+
+    <ImageView
+        android:id="@+id/IpHold"
+        android:layout_width="240dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/IPTitleHold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/IPTitleHold"
+        app:layout_constraintTop_toTopOf="@+id/IPTitleHold"
+        app:srcCompat="@drawable/button2" />
+
+    <TextView
+        android:id="@+id/IP_title"
+        android:layout_width="63dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="2dp"
+        android:text="Domain :\n/IP"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/IPTitleHold"
+        app:layout_constraintEnd_toStartOf="@+id/IpHold"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/IPTitleHold"
+        app:layout_constraintTop_toTopOf="@+id/IPTitleHold"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/ipaddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTint="@color/black"
+        android:fontFamily="monospace"
+        android:hint="127.0.0.1\ngoogle.com"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/IpHold"
+        app:layout_constraintEnd_toEndOf="@+id/IPTitleHold"
+        app:layout_constraintStart_toStartOf="@+id/IpHold"
+        app:layout_constraintTop_toTopOf="@+id/IpHold" />
+
+    <ImageView
+        android:id="@+id/ipRCvHold"
+        android:layout_width="362dp"
+        android:layout_height="399dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="@+id/IPTitleHold"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="@+id/IPTitleHold"
+        app:layout_constraintTop_toBottomOf="@+id/IPTitleHold"
+        app:srcCompat="@drawable/button" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/IPRcV"
+        android:layout_width="343dp"
+        android:layout_height="366dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ipRCvHold"
+        android:background="@drawable/emptybg"
+        app:layout_constraintEnd_toEndOf="@+id/ipRCvHold"
+        app:layout_constraintStart_toStartOf="@+id/ipRCvHold"
+        app:layout_constraintTop_toTopOf="@+id/ipRCvHold" />
+
+    <ImageView
+        android:id="@+id/scanbutthold"
+        android:layout_width="346dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/IPTitleHold"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/IPTitleHold"
+        app:layout_constraintTop_toBottomOf="@+id/IPTitleHold"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/scanbutt"
+        android:layout_width="96dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scanbutthold"
+        app:layout_constraintEnd_toEndOf="@+id/scanbutthold"
+        app:layout_constraintTop_toTopOf="@+id/scanbutthold"
+        app:srcCompat="@drawable/button3" />
+
+    <TextView
+        android:id="@+id/scanbutttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:text="SCAN"
+        android:textColor="#39AE2B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/scanbutt"
+        app:layout_constraintEnd_toEndOf="@+id/scanbutthold"
+        app:layout_constraintStart_toStartOf="@+id/scanbutt"
+        app:layout_constraintTop_toTopOf="@+id/scanbutt" />
+
+    <EditText
+        android:id="@+id/PortRange"
+        android:layout_width="220dp"
+        android:layout_height="51dp"
+        android:drawableTint="@color/black"
+        android:ems="10"
+        android:hint="Port Range(eg. 50-80)"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#3A3A3A"
+        app:layout_constraintBottom_toBottomOf="@+id/scanbutthold"
+        app:layout_constraintEnd_toStartOf="@+id/scanbutt"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/scanbutthold"
+        app:layout_constraintTop_toTopOf="@+id/scanbutthold"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

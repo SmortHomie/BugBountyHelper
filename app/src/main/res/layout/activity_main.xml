@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="340dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="monospace"
+        android:text="BBH Demo Home Page"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/passcarckhold"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/Title"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Title"
+        app:layout_constraintTop_toBottomOf="@+id/Title"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/portscanhold"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/Title"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Title"
+        app:layout_constraintTop_toBottomOf="@+id/passcarckhold"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/dorkbutthold"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/Title"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Title"
+        app:layout_constraintTop_toBottomOf="@+id/portscanhold"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/sshhold"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/Title"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Title"
+        app:layout_constraintTop_toBottomOf="@+id/dorkbutthold"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/sshhold2"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="@+id/Title"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Title"
+        app:layout_constraintTop_toBottomOf="@+id/dorkbutthold"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/xsshold"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintEnd_toEndOf="@+id/Title"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Title"
+        app:layout_constraintTop_toBottomOf="@+id/dorkbutthold"
+        app:srcCompat="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/subdomainhold"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintEnd_toEndOf="@+id/Title"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/Title"
+        app:layout_constraintTop_toBottomOf="@+id/dorkbutthold"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/portscan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Port Scanner"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/portscanhold"
+        app:layout_constraintEnd_toEndOf="@+id/portscanhold"
+        app:layout_constraintStart_toStartOf="@+id/portscanhold"
+        app:layout_constraintTop_toTopOf="@+id/portscanhold" />
+
+    <TextView
+        android:id="@+id/passcrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password Cracker"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/passcarckhold"
+        app:layout_constraintEnd_toEndOf="@+id/passcarckhold"
+        app:layout_constraintStart_toStartOf="@+id/passcarckhold"
+        app:layout_constraintTop_toTopOf="@+id/passcarckhold" />
+
+    <TextView
+        android:id="@+id/dorkbutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GoogleDorker"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/dorkbutthold"
+        app:layout_constraintEnd_toEndOf="@+id/dorkbutthold"
+        app:layout_constraintStart_toStartOf="@+id/dorkbutthold"
+        app:layout_constraintTop_toTopOf="@+id/dorkbutthold" />
+
+    <TextView
+        android:id="@+id/ssh_bruteforce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SSH Bruteforce"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/sshhold"
+        app:layout_constraintEnd_toEndOf="@+id/sshhold"
+        app:layout_constraintStart_toStartOf="@+id/sshhold"
+        app:layout_constraintTop_toTopOf="@+id/sshhold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="BugBountyDorker"
+        app:layout_constraintBottom_toBottomOf="@+id/sshhold2"
+        app:layout_constraintEnd_toEndOf="@+id/sshhold2"
+        app:layout_constraintStart_toStartOf="@+id/sshhold2"
+        app:layout_constraintTop_toTopOf="@+id/sshhold2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XSS Finder"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/xsshold"
+        app:layout_constraintEnd_toEndOf="@+id/xsshold"
+        app:layout_constraintStart_toStartOf="@+id/xsshold"
+        app:layout_constraintTop_toTopOf="@+id/xsshold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subdomain Enum"
+        app:layout_constraintBottom_toBottomOf="@+id/subdomainhold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/subdomainhold"
+        app:layout_constraintStart_toStartOf="@+id/subdomainhold"
+        app:layout_constraintTop_toTopOf="@+id/subdomainhold" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

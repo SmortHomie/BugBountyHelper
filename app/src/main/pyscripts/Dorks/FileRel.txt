@@ -1,0 +1,80 @@
+parent directory /appz/ -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+parent directory DVDRip -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+parent directory Xvid -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+parent directory Gamez -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+parent directory MP3 -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+parent directory Name of Singer or album -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+filetype:config inurl:web.config inurl:ftp
+ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (intext:confidential salary | intext:"budget approved") inurl:confidential
+ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (intext:confidential salary | intext:”budget approved”) inurl:confidential
+ext:inc "pwd=" "UID="
+ext:ini intext:env.ini
+ext:ini Version=... password
+ext:ini Version=4.0.0.4 password
+ext:ini eudora.ini
+ext:ini intext:env.ini
+ext:log "Software: Microsoft Internet Information Services _._"
+ext:log "Software: Microsoft Internet Information
+ext:log "Software: Microsoft Internet Information Services _._"
+ext:log \"Software: Microsoft Internet Information Services _._\"
+ext:mdb inurl:_.mdb inurl:fpdb shop.mdb
+ext:mdb inurl:_.mdb inurl:fpdb shop.mdb
+ext:mdb inurl:_.mdb inurl:fpdb shop.mdb
+filetype:SWF SWF
+filetype:TXT TXT
+filetype:XLS XLS
+filetype:asp DBQ=" _ Server.MapPath("_.mdb")
+filetype:asp "Custom Error Message" Category Source
+filetype:asp + "[ODBC SQL"
+filetype:asp DBQ=" _ Server.MapPath("_.mdb")
+filetype:asp DBQ=\" _ Server.MapPath(\"_.mdb\")
+filetype:asp “Custom Error Message” Category Source
+filetype:bak createobject sa
+filetype:bak inurl:"htaccess|passwd|shadow|htusers"
+filetype:bak inurl:\"htaccess|passwd|shadow|htusers\"
+filetype:conf inurl:firewall -intitle:cvs
+filetype:conf inurl:proftpd. PROFTP FTP server configuration file reveals
+filetype:dat "password.dat
+filetype:dat \"password.dat\"
+filetype:eml eml +intext:"Subject" +intext:"From" +intext:"To"
+filetype:eml eml +intext:\"Subject\" +intext:\"From\" +intext:\"To\"
+filetype:eml eml +intext:”Subject” +intext:”From” +intext:”To”
+filetype:inc dbconn
+filetype:inc intext:mysql*connect
+filetype:inc mysql_connect OR mysql_pconnect
+filetype:log inurl:"password.log"
+filetype:log username putty PUTTY SSH client logs can reveal usernames
+filetype:log “PHP Parse error” | “PHP Warning” | “PHP Error”
+filetype:mdb inurl:users.mdb
+filetype:ora ora
+filetype:ora tnsnames
+filetype:pass pass intext:userid
+filetype:pdf "Assessment Report" nessus
+filetype:pem intext:private
+filetype:properties inurl:db intext:password
+filetype:pst inurl:"outlook.pst"
+filetype:pst pst -from -to -date
+filetype:reg reg +intext:"defaultusername" +intext:"defaultpassword"
+filetype:reg reg +intext:\"defaultusername\" +intext:\"defaultpassword\"
+filetype:reg reg +intext:â? WINVNC3â?
+filetype:reg reg +intext:”defaultusername” +intext:”defaultpassword”
+filetype:reg reg HKEY* Windows Registry exports can reveal
+filetype:reg reg HKEY_CURRENT_USER SSHHOSTKEYS
+filetype:sql "insert into" (pass|passwd|password)
+filetype:sql ("values _ MD5" | "values _ password" | "values _ encrypt")
+filetype:sql (\"passwd values\" | \"password values\" | \"pass values\" )
+filetype:sql (\"values _ MD\" | \"values _ password\" | \"values _ encrypt\")
+filetype:sql +"IDENTIFIED BY" -cvs
+filetype:sql password
+filetype:sql password
+filetype:sql “insert into” (pass|passwd|password)
+filetype:url +inurl:"ftp://" +inurl:";@"
+filetype:url +inurl:\"ftp://\" +inurl:\";@\"
+filetype:url +inurl:”ftp://” +inurl:”;@”
+filetype:xls inurl:"email.xls"
+filetype:xls username password email
+ext:php intitle:phpinfo "published by the PHP Group"
+ext:sql | ext:txt intext:"-- phpMyAdmin SQL Dump --" + intext:"admin"
+ext:txt | ext:log | ext:cfg "Building configuration..."
+ext:txt | ext:log | ext:cfg | ext:yml "administrator:500:"
+ext:yml | ext:txt | ext:env "Database Connection Information Database server ="

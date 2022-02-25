@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".HashCracker">
+
+    <TextView
+        android:id="@+id/titlehashlib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="20dp"
+        android:text="Hash Cracker"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="305dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="@+id/titlehashlib"
+        app:layout_constraintStart_toStartOf="@+id/titlehashlib"
+        app:layout_constraintTop_toBottomOf="@+id/titlehashlib"
+        app:srcCompat="@drawable/button3" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text=": Hash Value :"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/hashinput"
+        android:layout_width="257dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Enter Hash Value here"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text=": Choose File Type :"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/hashinput"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/hashinput"
+        app:layout_constraintTop_toBottomOf="@+id/hashinput" />
+
+    <RadioGroup
+        android:id="@+id/HashF"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+        <RadioButton
+            android:id="@+id/EHash"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Easy"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/MHash"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Medium"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/HHash"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:text="Hard"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/DecryptButt"
+        android:layout_width="117dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/HashF"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/HashF"
+        app:layout_constraintTop_toBottomOf="@+id/HashF"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Decrypt"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/DecryptButt"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/DecryptButt"
+        app:layout_constraintStart_toStartOf="@+id/DecryptButt"
+        app:layout_constraintTop_toTopOf="@+id/DecryptButt"
+        app:srcCompat="@drawable/ic_baseline_cached_24" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="314dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/Hashstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Status : Checking"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/Hashtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Hash Type : Undetected"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Hashstatus"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/Hashstatus"
+        app:layout_constraintTop_toBottomOf="@+id/Hashstatus" />
+
+    <TextView
+        android:id="@+id/passcracked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Password : Not Found"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Hashtype"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/Hashtype"
+        app:layout_constraintTop_toBottomOf="@+id/Hashstatus" />
+
+    <TextView
+        android:id="@+id/hashval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="Hash Value :\n"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/passcracked"
+        app:layout_constraintStart_toStartOf="@+id/passcracked"
+        app:layout_constraintTop_toBottomOf="@+id/Hashstatus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
